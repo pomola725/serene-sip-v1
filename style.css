@@ -29,7 +29,20 @@ header p,
   margin-bottom: 20px;
   padding: 10px;
 }
-header a,
+header a {
+  font-family: "Lato", sans-serif;
+  display: block;
+  background: #49281a;
+  color: #f0e2c5;
+  text-decoration: none;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 10px;
+  margin: 10px auto;
+  transition: 0.4ms;
+  box-shadow: 5px 5px 10px grey;
+}
 
 /* nav section */
 nav {
@@ -52,7 +65,7 @@ li a {
   color: #f0e2c5;
 }
 li:hover {
-  box-shadow: 2px 2px 2px 2px #49281a;
+  box-shadow: 2px 2px 5px 2px #998177;
 }
 #our-menu,
 #about-us,
