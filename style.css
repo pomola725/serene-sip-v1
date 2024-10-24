@@ -16,6 +16,17 @@ header {
   border-bottom: 2px solid #49281a;
   text-align: center;
   padding: 50px;
+  background: url(images/coffee\ cup\ splash.png);
+  /* background: url(images/splash.png); */
+  background-size: 250px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+header img {
+  width: 150px;
+  position: absolute;
+  left: 50px;
+  top: 20px;
 }
 header h1 {
   font-family: "Playfair Display SC", serif;
